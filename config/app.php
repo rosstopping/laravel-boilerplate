@@ -227,6 +227,9 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
         'Markdown' => GrahamCampbell\Markdown\Facades\Markdown::class,
+        
+        'GoogleFontsLoader' => RossMcNeil\GoogleFontsLoader\Facades\GoogleFontsLoader::class,
+
     ],
 
 ];

@@ -14,6 +14,7 @@
         "graham-campbell/markdown": "^10.3",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
+        "rossmcneil/googlefontsloader": "dev-master",
         "silber/page-cache": "^1.0",
         "spatie/laravel-responsecache": "^4.4",
         "writingink/wink": "^0.0.13"
@@ -22,6 +23,7 @@
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
+        "jeroen-g/laravel-packager": "^2.1",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.5"

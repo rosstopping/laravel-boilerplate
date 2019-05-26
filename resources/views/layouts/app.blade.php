@@ -9,6 +9,8 @@
 
 		{!! SEO::generate() !!}
 
+		{!! GoogleFontsLoader::load() !!}
+
 		@if (isset($post))
 		<meta property="og:type" content="article">
 		<meta property="article:published_time" content="{{ $post->publish_date }}">
