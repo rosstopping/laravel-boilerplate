@@ -1,0 +1,3 @@
+Sitemap: https://digizu.co.uk/sitemap.xml
+User-agent: *
+Disallow:
