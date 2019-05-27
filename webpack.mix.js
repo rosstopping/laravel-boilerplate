@@ -17,6 +17,6 @@ mix.js('resources/js/app.js', 'public/js')
 	.sass('resources/sass/app.sass', 'public/css')
 	.options({
 		processCssUrls: false,
-		postCss: [ tailwindcss('tailwind.js') ],
+		postCss: [ tailwindcss('tailwind.config.js') ],
 	})
 	.purgeCss();

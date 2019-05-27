@@ -5,9 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-// require('./bootstrap');
-
-import 'lazysizes';
+require('./bootstrap');
 
 window.Vue = require('vue');
 
@@ -31,10 +29,3 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 const app = new Vue({
     el: '#app'
 });
-
-
-/**
- Feather Icons
- */
-const feather = require('feather-icons')
-feather.replace()
